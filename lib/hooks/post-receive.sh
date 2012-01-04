@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+
+rvm_trust_rvmrcs_flag=1
+
 if [ "$GIT_DIR" = "." ]; then
   # The script has been called as a hook; chdir to the working copy
   cd ..
